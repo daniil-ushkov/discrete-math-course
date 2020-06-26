@@ -111,7 +111,7 @@ struct CFG {
     }
 
     for (size_t l = 0; l <= n; ++l) {
-      for (size_t it = 0; it < 5; ++it) {
+      for (size_t it = 0; it < 5; ++it) { // WARNING: it is a kludge :)
         // additional dynamic
         for (size_t r = 0; r < rules_.size(); ++r) {
           for (size_t i = 0; i <= n; ++i) {
